@@ -3,21 +3,23 @@ programa
 
 //custo carro para o consumidor.
 
-	funcao inicio() {
+	funcao inicio()
+ {
 	
 		inteiro distribuidor, carro, fabrica, consumidor
 
 			escreva("Qual o preço do carro de fábrica: ")
 			leia(carro)
 
-			distribuidor = (carro * 100) / 28
-			fabrica = (carro * 100) / 45
+			distribuidor = (carro / 100) * 28
+			fabrica = (carro / 100) * 45
 
 			consumidor = carro + distribuidor + fabrica
 
 			escreva("O custo ao consumidor: " + consumidor)
 	
-	}//fim função
+	}
+//fim função
 }
 /* $$$ Portugol Studio $$$ 
  * 
